@@ -1,0 +1,17 @@
+.white{
+  color: white;
+}
+
+.whiteish{
+  color: #eeeeee;
+}
+
+.right{
+  float: right;
+}
+
+.centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
