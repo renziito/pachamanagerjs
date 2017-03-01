@@ -82,6 +82,7 @@ function downloadPachamanca(path) {
     var URL = "https://github.com/j0t3x/pachamanca.git",
         ghdownload = require('github-download'),
         exec = require('child_process').exec;
+        
     ghdownload(URL, path).on('dir', function(dir) {}).on('end', function() {
         var actualLoc = __dirname;
         console.log(hr);
