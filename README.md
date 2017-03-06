@@ -1,5 +1,6 @@
 # pachamanagerjs
 Manager for Pachamanca Framework
+>"The Pacha for your Manca"
 
 #Install
 

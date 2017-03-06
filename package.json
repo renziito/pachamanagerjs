@@ -1,6 +1,6 @@
 {
     "name": "pachamanager",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Manager for Pachamanca Framework",
     "main": "index.js",
     "scripts": {
@@ -10,11 +10,12 @@
     "author": "Renziito <sepia.aki@gmail.com>",
     "license": "ISC",
     "dependencies": {
+        "commander": "^2.9.0",
         "github-download": "^0.5.0",
         "promptly": "^2.1.0"
     },
-    "bin" : {
-        "pachamanager" : "./index.js"
+    "bin": {
+        "pachamanager": "./index.js"
     },
     "repository": {
         "type": "git",
